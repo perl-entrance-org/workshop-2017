@@ -96,13 +96,13 @@ ___
 ___
 ## VirtualBoxのダウンロード
 - まず, VirtualBoxをダウンロードします.
-    - [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)から, ｢VirtualBox 5.0.20 for Windows hosts｣の横のリンクをクリックします.
-    - こちらのリンクから直接ダウンロードすることも可能です: [ダウンロード](http://download.virtualbox.org/virtualbox/5.0.20/VirtualBox-5.0.20-106931-Win.exe)
+    - [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)から, ｢VirtualBox 5.1.18 for Windows hosts｣の横のリンクをクリックします.
+    - こちらのリンクから直接ダウンロードすることも可能です: [ダウンロード](http://download.virtualbox.org/virtualbox/5.1.18/VirtualBox-5.1.18-114002-Win.exe)
 - ダウンロードした`exe`ファイルをダブルクリックして開くと, インストールが始まります
 
 ___
 ## VirtualBoxのインストール (1)
-- インストーラーを起動すると, ｢Welcome to the Oracle VM VirtualBox 5.0.20 Setup Wizard｣という表示が出るはずです.
+- インストーラーを起動すると, ｢Welcome to the Oracle VM VirtualBox 5.1.18 Setup Wizard｣という表示が出るはずです.
     - ｢Next >｣をクリックします.
 - 次に, ｢Custom Setup｣の画面が表示されます.
     - カスタムせず, そのままインストールします. ｢Next >｣をクリックします.
@@ -124,7 +124,7 @@ ___
 
 ___
 ## VirtualBoxのインストール (4)
-- 暫くすると, ｢Oracle VM VirtualBox 5.0.20 installation is complete.｣という表示が出ます.
+- 暫くすると, ｢Oracle VM VirtualBox 5.1.18 installation is complete.｣という表示が出ます.
     - これでVirtualBoxのインストールは完了です! ｢Finish｣をクリックしてインストーラを終了しましょう.
     - もし, 失敗した場合は, 近くのサポーターに助けを求めて下さい!
 
