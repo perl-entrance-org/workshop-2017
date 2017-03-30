@@ -39,7 +39,8 @@ ___
 ## Perl入学式とは
 - 2012年1月に大阪で誕生した, プログラミング未経験者〜初心者向けのPerl勉強会です.
 - 2013年度では東京, そして2014年度では福岡と, 3年目にして3大都市で開催!
-    - 2016年度は, 東京, 大阪, そして新たに沖縄の3都市で開催します.
+- さらに2016年度では,東京, 大阪, そして新たに沖縄の3都市で開催しました．
+    - 2017年度からは新たに札幌も加わり,東京,大阪,沖縄での4都市開催となっています．
 - 参加費は無料です. 受講者の負担が極力少ない形で行われています.
 - カリキュラムは年5回です. 東京は, 1年間に2回のカリキュラムを実施します(5月スタート, 11月スタート[予定]).
 
@@ -55,10 +56,13 @@ ___
 ___
 ## オンラインでのサポート
 - Perl入学式の公式ページ http://perl-entrance.org/
-- Twitterアカウント [@PerlEntrance](https://twitter.com/PerlEntrance)
+- Twitterアカウント [@Perl_Entrance](https://twitter.com/Perl_Entrance)
     - 公式ページやTiwtterアカウントでは, 開催日程などがアナウンスされます.
 - Twitterハッシュタグ [#Perl入学式](https://twitter.com/hashtag/Perl%E5%85%A5%E5%AD%A6%E5%BC%8F?src=hash)
     - 運営側がウォッチしているので, なにか疑問があればこれをつけて気軽に質問してみましょう.
+- [Slackチャンネル](https://docs.google.com/forms/d/e/1FAIpQLScbWyg-cgcqilW7-BpKagRm2ldBhvwRBNr2N5eg3LHOK13FGw/viewform)
+    - Slackというチャットツールを使って,サポーターや参加者とのチャットが出来ます．
+    - こちらでも気軽に質問や雑談をしてみましょう．
 - [GitHubのPerl入学式アカウント](https://github.com/perl-entrance-org).
     - 講義で使われた資料, コードなどがあります.
 
@@ -141,7 +145,7 @@ ___
     - よって, Perl5の開発は継続されます.
     - また, 現在ではPerl 6はPerl 5とは別の言語とみなされている, と解説されることもあるほど互換性はありません.
         - これはPerl5のバージョン間での互換性が最大限に保たれていることの裏返しでもあります.
-    - 現在の最新の安定版は5.24.0(2016年5月12日現在), バージョンを確認する `perl -v` では, Perl5のバージョン24, のように表記されています.
+    - 現在の最新の安定版は5.24.0(2017年3月25日現在), バージョンを確認する `perl -v` では, Perl5のバージョン24, のように表記されています.
 
 ___
 ## Perlのコミュニティ
@@ -159,17 +163,18 @@ ___
     - Hokkaido.pm Casual, Perl Casual, Perl入学式, よなべPerl...
 
 ___
-## YAPC::Asia Tokyo
+## YAPC::Japan
 - YAPC ... Yet Another Perl Conference
     - 年に一度行われる, 日本最大規模のPerlの祭典です.
-- 今年は[北海道で開催予定](http://blog.perlassociation.org/2016/04/japan-perl-associationjpa.html)と告知されています.
-- また, [Yet Another Pachimon Conference](http://yapcasia8oji-2016mid.hachiojipm.org/)なるイベントも...
+- 今年は[7/1に福岡で開催予定](http://yapcjapan.org/2017fukuoka/)と告知されています.
+- 来年は沖縄,その次は東京での開催も予定されています．
+- また, [Yet Another Pachimon Conference](http://y8-2017-spring.hachiojipm.org/)なるイベントも...
 
 ___
 ## PerlとCGI
 - 一時期, ｢PerlでWebサービスを作るならCGI｣という時代がありましたが, 今はそうではありません.
 - 最近は, PSGI(Perl Web Server Gateway Interface)という仕様に対応したWAF(Web Application Framework)を使っての開発が増えています.
-    - 2016年現在, Perlの代表的かつ新規採用されやすいWAFとしては, MojoliciousやAmon2などがあります.
+    - 2017年現在, Perlの代表的かつ新規採用されやすいWAFとしては, MojoliciousやAmon2などがあります.
 - Perl入学式は｢モダンなPerlを教える｣という方針を取っていますので, CGIについては触れません.
 
 ---
