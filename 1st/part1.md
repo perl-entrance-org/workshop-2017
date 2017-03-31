@@ -60,7 +60,8 @@ ___
 ___
 ## Perl入学式では...
 - Windowsユーザの方は...
-    - VirtualBoxというソフトウェアを作って, 皆さんのコンピュータに｢仮想的な, もう1つのパソコン｣を作って, そこに USBメモリを利用して, Ubuntuの環境を構築します.
+    - VirtualBoxというソフトウェアを作って, 皆さんのコンピュータに｢仮想的な, もう1つのパソコン｣を作って,Ubuntuの環境を構築します.
+    - コンピュータ本体の容量が心配な方はUSBメモリを利用しましょう．
 - Macユーザ, Linuxユーザの方は...
     - 基本的に, 既にお手持ちのPC/環境を利用して頂きます.
 
@@ -96,7 +97,7 @@ ___
 ___
 ## VirtualBoxのダウンロード
 - まず, VirtualBoxをダウンロードします.
-    - [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)から, ｢VirtualBox 5.1.18 for Windows hosts｣の横のリンクをクリックします.
+    - [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)から, ｢VirtualBox 5.1.18 platform packages.｣の下のWindows hostsのリンクをクリックします.
     - こちらのリンクから直接ダウンロードすることも可能です: [ダウンロード](http://download.virtualbox.org/virtualbox/5.1.18/VirtualBox-5.1.18-114002-Win.exe)
 - ダウンロードした`exe`ファイルをダブルクリックして開くと, インストールが始まります
 
