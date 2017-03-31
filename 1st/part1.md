@@ -96,7 +96,7 @@ ___
 ___
 ## VirtualBoxのダウンロード
 - まず, VirtualBoxをダウンロードします.
-    - [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)から, ｢VirtualBox 5.1.18 for Windows hosts｣の横のリンクをクリックします.
+    - [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)から, ｢VirtualBox 5.1.18 platform packages.｣の下のWindows hostsのリンクをクリックします.
     - こちらのリンクから直接ダウンロードすることも可能です: [ダウンロード](http://download.virtualbox.org/virtualbox/5.1.18/VirtualBox-5.1.18-114002-Win.exe)
 - ダウンロードした`exe`ファイルをダブルクリックして開くと, インストールが始まります
 
