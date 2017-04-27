@@ -86,7 +86,7 @@ ___
     - なお今回は, ｢Ubuntu 14.04 LTS｣を利用します.
 - こちらのリンクから直接ダウンロードすることも可能です: [ダウンロード](http://cdimage.ubuntulinux.jp/releases/14.04/ubuntu-ja-14.04-desktop-amd64-vhd.zip)
 - ダウンロードした`zip`ファイルは解凍しておきます.
-    - 解凍する際にwinZipの画面がでてきてしまう方は,[こちらのページ](http://www.keisan-navi.com/post-994/)を参考にして解凍しましょう．
+    - 解凍する際にwinZipの画面がでてきてしまう方は,[こちらのページ](http://dynabook.com/assistpc/faq/pcdata2/014610.htm)を参考にして解凍しましょう．
     - `ubuntu-ja-14.04-desktop-amd64.vhd`を利用します.
 
 
