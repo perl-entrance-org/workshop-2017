@@ -86,7 +86,16 @@ ___
     - なお今回は, ｢Ubuntu 14.04 LTS｣を利用します.
 - こちらのリンクから直接ダウンロードすることも可能です: [ダウンロード](http://cdimage.ubuntulinux.jp/releases/14.04/ubuntu-ja-14.04-desktop-amd64-vhd.zip)
 - ダウンロードした`zip`ファイルは解凍しておきます.
+    - 解凍する際にwinZipの画面がでてきてしまう方は,[こちらのページ](http://dynabook.com/assistpc/faq/pcdata2/014610.htm)を参考にして解凍しましょう．
     - `ubuntu-ja-14.04-desktop-amd64.vhd`を利用します.
+
+
+___
+## Ubuntuのインストール時の推奨環境
+
+- Ubuntu環境を構築する際,6GBのHDD容量を必要とします．
+- Cドライブの容量が心配な方は,必要に応じてDドライブ,USBメモリ等でubuntuファイルの解凍を行いましょう.
+
 
 ___
 ## VirtualBoxのインストール
