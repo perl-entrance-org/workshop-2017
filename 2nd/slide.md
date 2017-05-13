@@ -192,9 +192,9 @@ ___
     my $foo = 'hoge';
     my $bar = 123;
     my $baz = $foo . $bar;    
-		print $baz . "\n"; 				#=> hoge123
+    print $baz . "\n"; 	      #=> hoge123
     print $foo . $baz . "\n"; #=> hogehoge123
-		print "$foo$baz\n";				#=> hogehoge123 
+    print "$foo$baz\n";	      #=> hogehoge123 
 
 - `.`で, 文字列や変数を連結することができます
 - ダブルクォテーションで囲まれた変数は展開されて表示されるので、最後2つのprint文は同じ結果になります
