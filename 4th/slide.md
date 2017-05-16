@@ -28,8 +28,8 @@ ___
 ---
 # リファレンスの復習
 
-- [前回の復習問題](https://github.com/perl-entrance-org/workshop-2016/blob/master/3rd/practice.md)の｢2. score.pl｣の｢2-1. 点数の合計｣, ｢2-2. 言語ごとの平均｣の問題を解きながら, リファレンスを復習してみましょう.
-- [こちら](https://github.com/perl-entrance-org/workshop-2016/blob/master/3rd/code/score.pl)にサンプルデータがあります.
+- [前回の復習問題](https://github.com/perl-entrance-org/workshop-2017/blob/master/3rd/practice.md)の｢2. score.pl｣の｢2-1. 点数の合計｣, ｢2-2. 言語ごとの平均｣の問題を解きながら, リファレンスを復習してみましょう.
+- [こちら](https://github.com/perl-entrance-org/workshop-2017/blob/master/3rd/code/score.pl)にサンプルデータがあります.
 
 ---
 # サブルーチン

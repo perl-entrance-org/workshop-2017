@@ -209,7 +209,7 @@ ___
     $fuga += 1;      # $fuga = $fuga + 1;と同じ
     $fuga -= 1;      # $fuga = $fuga - 1;と同じ
     $fuga *= 2;      # $fuga = $fuga * 2;と同じ
-    $fuga /= $hoge;  # $fuga = $fuga / $hoge;と同じ 
+    $fuga /= $hoge;  # $fuga = $fuga / $hoge;と同じ
 
 - 先ほどのスライドの `+=` や `-=` といった省略した書き方は、`*=` `/=` にも利用できます
 
@@ -219,7 +219,7 @@ ___
     my $bar = 123;
     print $foo . $bar . "\n"; #=> hoge123
     print $foo,  $bar,  "\n"; #=> hoge123
-    print "$foo$bar\n";       #=> hoge123 
+    print "$foo$bar\n";       #=> hoge123
 
 - `.`(ドット)で, 文字列や変数を連結することができます
 - `,`(カンマ)でも、スカラー変数や文字列、数値の連結については、`.`と同じ結果になります
@@ -243,7 +243,7 @@ ___
     my $last_showa = 1988;
     print "今年は平成" . $now - $last_showa . "年です\n";     
     #=> -1988年です
-    print "今年は平成" . ( $now - $last_showa ) . "年です\n"; 
+    print "今年は平成" . ( $now - $last_showa ) . "年です\n";
     #=> 今年は平成29年です
 
 - 最初のprint文では、`-1988年です` という予期せぬ結果になります
@@ -432,11 +432,11 @@ ___
 
 ____
 ## 3つ以上の値を比較したい場合
-    my $small = 10; 
-    my $medium = 20; 
-    my $large = 30; 
+    my $small = 10;
+    my $medium = 20;
+    my $large = 30;
 
-    if ( $small < $medium && $medium < $large ) { 
+    if ( $small < $medium && $medium < $large ) {
        print "小さい順に並んでます\n";
     }
 
@@ -647,11 +647,11 @@ ___
 ___
 ## 練習問題の解答例
 
-- [2016-answer](./answer)
+- [2017-answer](./answer)
   - 各会場の講師が書いた, 練習問題の解答例はこちらで公開しています
   - ※講義終了後に随時追加していきます
 
-- [2015-answer](https://github.com/perl-entrance-org/workshop-2015-02/tree/master/answer)
+- [2016-answer](https://github.com/perl-entrance-org/workshop-2016/tree/master/2nd/answer)
   - 昨年分の解答例はこちらで公開しています
 
 ___
@@ -695,9 +695,3 @@ ___
 - forループでもwhileループでも同じ処理は書けますが、それぞれ適している・好まれるケースがあります
     - forループは配列全てに対して処理を行う時など、繰り返す回数が決まっている場合に好まれる書き方です
     - whileループは繰り返す回数は決まっていないが、特定の条件が真の間ずっと処理を繰り返したいときに好まれる書き方です
-
-
-
-
-
-

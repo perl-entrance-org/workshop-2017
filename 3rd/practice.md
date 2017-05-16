@@ -32,7 +32,7 @@ my @array = ($ref1, $ref2, $ref3);
 
 ## 2. score.pl
 
-[score.pl](https://github.com/perl-entrance-org/workshop-2016/blob/master/3rd/code/score.pl) には、次のようなハッシュリファレンスがいくつか宣言してあります。
+[score.pl](https://github.com/perl-entrance-org/workshop-2017/blob/master/3rd/code/score.pl) には、次のようなハッシュリファレンスがいくつか宣言してあります。
 
 このハッシュリファレンスには, 人物の名前(`name`), 国(`country`), プログラミング言語のスコア(`perl`, `python`, `ruby`, `php`, `binary`)が格納されています:
 
