@@ -144,6 +144,9 @@ body {
   background: #3F3F3F;
   color: #DCDCDC; }
 
+.reveal pre code span[class^="hljs-"] {
+  color: #DCDCDC; }
+
 .reveal table {
   margin: auto;
   border-collapse: collapse;
