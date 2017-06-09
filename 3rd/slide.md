@@ -796,7 +796,7 @@ ___
 - 次の処理をする `region_ref.pl` を作りましょう。
     1. 以下のデータ構造を表す`%japan`を作ってください。
 
-
+```
     japan
      ├─ tokyo
      │    ├─ gotanda
@@ -811,7 +811,7 @@ ___
      │    └─ obihiro
      └─ fukuoka
            └─ hakata
-
+```
 ___
 ## 最終問題
 2. 1. で作ったデータから、 `gotanda` と `sapporo` を出力してください。
