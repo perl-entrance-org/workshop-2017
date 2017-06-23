@@ -703,7 +703,7 @@ ___
     my @animal = (['shiba', 'bulldog'], 'cat');
     ${$animal[0]}[2] = 'poodle'; # 新たな要素を代入
 
-無名配列を使って、このように書くこともできます。
+アロー記法を使って、このように書くこともできます。
 
     $animal[0]->[2] = 'poodle';
     $animal[0][2] = 'poodle';
