@@ -140,8 +140,15 @@ bob
 #### 出力例
 
 ```
-England: Alice
-Canada: ???
+$VAR1 = {
+          'England' => [
+                         'Alice',
+                         '???'
+                       ],
+          'Canada' => [
+                        '???'
+                      ]
+        };
 ```
 
 ### 2-5. JSON風Dumper
