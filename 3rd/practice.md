@@ -168,7 +168,7 @@ Canada: ???
     "ruby":50
     "perl":40
     "php":30
-    "affiliation":"America"
+    "country":"America"
   }
 ]
 ```
