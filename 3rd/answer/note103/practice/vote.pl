@@ -44,7 +44,7 @@ for my $food (@all_foods) {
 
 ## 得票数だけを配列に降順（だんだん小さくなっていく順）でコピー
 my @votes;
-for my $vote (reverse sort values %foods_calcs) {
+for my $vote (reverse sort {$a <=> $b} values %foods_calcs) {
     push @votes, $vote;
 }
 
@@ -70,3 +70,6 @@ __END__
 1: ramen
 1: meat
 1: fruits
+
+# 設問
+# https://github.com/perl-entrance-org/workshop-2017/blob/master/3rd/practice.md#1-votepl
