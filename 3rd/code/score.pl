@@ -13,7 +13,7 @@ my $alice = {
     binary      => 30,
 };
 my $bob = {
-    name        => 'bob',
+    name        => 'Bob',
     country     => 'America',
     perl        => 40,
     python      => 10,
