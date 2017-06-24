@@ -61,6 +61,9 @@ for my $vote (@votes) {
 
 
 __END__
+# 設問
+# https://github.com/perl-entrance-org/workshop-2017/blob/master/3rd/practice.md#1-votepl
+
 # 出力結果
 # ただし、得票数が同じ場合は実行する時によって順序が変わる
 
@@ -71,5 +74,3 @@ __END__
 1: meat
 1: fruits
 
-# 設問
-# https://github.com/perl-entrance-org/workshop-2017/blob/master/3rd/practice.md#1-votepl
