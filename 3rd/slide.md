@@ -148,7 +148,7 @@ ___
 ___
 ## sort
 sort はリストをルール順に並べ替えて、そのリストを返します。  
-`sort`のみ, あるいは `sort { $a cmp $b } @array` と書くと, 「文字列」としてソートします
+`sort`のみ, あるいは `sort { $a cmp $b } @array` と書くと, 「文字列」として昇順にソートします
 
     my @lang = qw(perl php ruby python java go);
     my @sorted_lang = sort @lang; #=> go java perl php python ruby
@@ -158,7 +158,7 @@ sort はリストをルール順に並べ替えて、そのリストを返しま
 
 ___
 ## sort
-`sort { $a <=> $b } @array`と書くと, 「数値」としてソートします
+`sort { $a <=> $b } @array`と書くと, 「数値」として昇順にソートします
 
     my @array = ( 5, 200, 40, 3, 1 );
     my @sorted = sort {$a <=> $b} @array; #=> (1, 3, 5, 40, 200)
