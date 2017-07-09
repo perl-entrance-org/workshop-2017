@@ -176,6 +176,13 @@ ___
     - `<STDIN>`がどのような働きをするか見てみましょう
 
 ___
+## 練習問題 (hello\_stdin.pl)
+    Your Name?> Taro
+    Hello Taro!
+
+- "Your Name?> " と画面に表示して名前の入力を求め、入力された名前の左側に Hello、右側に ! を付けて表示するスクリプト `hello_stdin.pl` を作成しよう
+
+___
 # 四則演算
 
 ___
