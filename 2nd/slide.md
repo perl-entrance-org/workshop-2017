@@ -562,6 +562,16 @@ ___
 - この場合, 変数`$foo`に`$array[0]`, `$array[1]` ... という値が順番に代入され, 処理が行われます
 
 ___
+## 配列と `<STDIN>`
+    my @array = (<STDIN>, <STDIN>); # うまくいかない
+    print "Input1> "; my $input1 = <STDIN>; chomp $input1;
+    print "Input2> "; my $input2 = <STDIN>; chomp $input2;
+    my @inputs = ($input1, $input2);
+
+- 2つの入力値を得る場合、配列の要素として `<STDIN>` を直接書くことはできません
+- 1つずつスカラー変数で受け取り、`chomp` をした後で配列に入れましょう
+
+___
 ## 練習問題(for.pl)
 1. 配列`@array`に好きな数値や文字列を設定し、for文で出力してください。
 2. `<STDIN>`を用いて配列`@array2`に好きな数値や文字列を入力し、for文で出力してください。
