@@ -179,8 +179,11 @@ ___
 ## 練習問題 (hello\_stdin.pl)
     Your Name?> Taro
     Hello Taro!
+    Your OS?> macOS
+    macOS is useful OS!
 
-- "Your Name?> " と画面に表示して名前の入力を求め、入力された名前の左側に Hello、右側に ! を付けて表示するスクリプト `hello_stdin.pl` を作成しよう
+- "Your Name?> " と画面に表示して名前の入力を求め、入力された名前の左側に Hello、右側に "!" を付けて表示するスクリプト `hello_stdin.pl` を作成しよう
+- さらに続けて "Your OS?> " と画面に表示して使用中の OS の入力を求め、入力されたOS名の右側に "is useful OS!" を付けて表示させるようにもしてみましょう
 
 ___
 # 四則演算
