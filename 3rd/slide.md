@@ -381,6 +381,34 @@ ___
 exists関数は、指定したハッシュの key が存在するか確認します。
 
 ___
+## ハッシュの key 指定について
+    my %hash = (
+        name        => 'Alice',
+        job         => 'Programmer',
+        affiliation => 'PerlEntrance'
+    );
+    my $key = 'job';
+    print $hash{$key}; #=> 'Programmer'
+
+ハッシュの key は文字列が入ったスカラー変数でも指定可能です。
+
+- {foo} であれば foo という文字列が key 名、{$foo} であればスカラー変数 `$foo` に代入された文字列が key 名となります。
+
+___
+## ハッシュの key 指定について
+    my %hash = (
+        name        => 'Alice',
+        job         => 'Programmer',
+        affiliation => 'PerlEntrance'
+    );
+    for my $key ( keys %hash ) {
+        my $value = $hash{$key};
+        print "$key => $value\n";
+    }
+
+keys関数と組み合わせると、keyとvalueのペアをfor文で一つずつ処理することができます。
+
+___
 ## 練習問題
 
 - 次の処理をする `hash_func.pl` を作りましょう。
