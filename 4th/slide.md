@@ -508,13 +508,23 @@ ___
 # 正規表現と置換
 
 ___
-## 置換
-	my $str = 'abc def ghi';
-	$str =~ s/abc/ABC/;
-	# $str = 'ABC def ghi';
+## 1箇所のみ置換
+        my $str = 'abc def ghi';
+        $str =~ s/abc/ABC/;
+        # $str = 'ABC def ghi';
 
 - `s/PATTERN/REPLACE/`で, `PATTERN`を`REPLACE`に置換します.
     - `PATTERN`を記述する為に, 正規表現を利用することができます.
+
+___
+## 全置換
+        my $str = 'abc def ghi abc abc';
+        $str =~ s/abc/ABC/;
+        print  $str . "\n"; # => ABC def ghi abc abc
+        $str =~ s/abc/ABC/g;
+        print $str. "\n";   # => ABC def ghi ABC ABC
+
+- `s/PATTERN/REPLACE/`では, 最初に該当した箇所のみ置換されます。 
 - `$str`に含まれる全ての`PATTERN`を置換したい場合, `s/PATTERN/REPLACE/g`と表記します.
     - 最後にオプションとして`g`を付けることで, 繰り返し評価･置換します.
 
