@@ -545,9 +545,9 @@ ___
 
 ___
 ## 置換
-	my $str = 'abc def ghi';
+	my $str = 'abc def ghi abc';
 	$str =~ s/abc/ABC/;
-	# $str = 'ABC def ghi';
+	# $str = 'ABC def ghi abc';
 
 - `s/PATTERN/REPLACE/`で, `PATTERN`を`REPLACE`に置換します.
     - `PATTERN`を記述する為に, 正規表現を利用することができます.
